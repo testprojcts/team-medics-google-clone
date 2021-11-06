@@ -25,7 +25,7 @@ This is a solution to the [Google clone with ReactJs Library by Team Medics](htt
 
 ## Overview
 
-![Project Demo](/path/to/image.png "Text to show on mouseover")
+![Project Demo](src/demo.png "Side Hustle Project Demo")
 
 ### The challenge
 
