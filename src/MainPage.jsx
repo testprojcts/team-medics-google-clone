@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './MainPage.css';
 import logo from '../logo.png';
+import './responsive.css';
 
 const MainPage = () => {
   // default item in memory

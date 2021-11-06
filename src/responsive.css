@@ -1,0 +1,240 @@
+@media only screen and (max-width: 600px) {
+  .content__wrapper {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+  }
+
+  .header {
+    width: 100%;
+    box-shadow: none;
+    position: sticky;
+    z-index: 5;
+    top: 0;
+  }
+
+  .logo {
+    height: 25px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    -o-object-fit: contain;
+    -o-object-position: center;
+  }
+
+  .content__wrapper {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 0 25px;
+  }
+
+  .input__wrapper {
+    border: 1px solid #ddd;
+    outline: 0;
+    border-radius: 30px;
+    font-size: 16px;
+    box-shadow: 1px 2px 5px rgba(221, 221, 221, 0.302);
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .input__wrapper .searchInput {
+    height: 100%;
+    padding: 14px 15px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-size: 14px;
+    color: #5a5959;
+  }
+
+  .searchInput::placeholder {
+    font-size: 16px;
+  }
+
+  .input__wrapper:hover {
+    box-shadow: 1px 2px 5px #ddd;
+    transition: all 0.25s linear;
+    cursor: default;
+  }
+
+  .mainPage {
+    height: calc(86vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .logo {
+    height: 70px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 30px;
+  }
+
+  .searchIcon {
+    font-size: 20px;
+    color: blue;
+  }
+
+  /* main buttons */
+  .mainBtn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 10px;
+    padding: 5px 0;
+  }
+
+  .mainBtn .bottomBtn {
+    padding: 10px 10px;
+    outline: 0;
+    border: 1px solid rgba(254, 254, 254, 0.247);
+    gap: 10px;
+    margin: 5px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(235, 233, 233, 0.116);
+  }
+
+  .mainBtn .bottomBtn:hover {
+    box-shadow: 1px 1px 5px rgba(221, 221, 221, 0.623);
+    cursor: pointer;
+    border: 1px solid rgba(208, 208, 208, 0.562);
+  }
+
+  .paragragh__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .main__p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .paragragh__container .main__p span {
+    text-align: center;
+  }
+
+  .paragragh__container .main__p a {
+    margin: 5px;
+    gap: 10px;
+    text-decoration: none;
+  }
+
+  .main__p a:hover {
+    text-decoration: underline;
+  }
+
+  .edited__text {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .paragragh__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  /* Footer Section */
+  .main__footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .bottom__footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 60px;
+    border: 2px solid red;
+  }
+
+  .footer nav {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+  }
+
+  .right__bottom_nav nav a {
+    color: red;
+  }
+
+  .left__bottom_nav {
+    width: 100%;
+  }
+
+  .left__bottom_nav nav {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .left__bottom_nav nav a {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+  }
+
+  .right__bottom_nav nav a {
+    color: red;
+  }
+
+  .right__bottom_nav {
+    width: 100%;
+  }
+
+  .right__bottom_nav nav {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .right__bottom_nav nav a {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+  }
+}
+
+/* @media only screen and (min-width: 768px){
+  .mainPage{
+    height: calc(90vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: red;
+  }
+} */
