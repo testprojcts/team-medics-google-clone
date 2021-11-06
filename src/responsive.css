@@ -1,13 +1,4 @@
 @media only screen and (max-width: 600px) {
-  .content__wrapper {
-    width: 100%;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 600px;
-  }
-
   .header {
     width: 100%;
     box-shadow: none;
@@ -103,7 +94,7 @@
     margin: 5px;
     font-size: 12px;
     border-radius: 4px;
-    background-color: rgba(235, 233, 233, 0.116);
+    background-color: rgba(233, 233, 233, 0.068);
   }
 
   .mainBtn .bottomBtn:hover {
@@ -117,6 +108,11 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+  }
+
+  .top__footer h4 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.829);
   }
 
   .main__p {
@@ -161,7 +157,8 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 0;
+    padding: 20px 0;
+    background-color: black;
     margin: 0;
     width: 100%;
   }
@@ -169,10 +166,10 @@
   .bottom__footer {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: column;
-    gap: 60px;
-    border: 2px solid red;
+    gap: 25px;
+    margin: 20px 0;
   }
 
   .footer nav {
