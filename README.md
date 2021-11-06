@@ -4,7 +4,7 @@
 
 This is a solution to the [Google clone with ReactJs Library by Team Medics](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript and React**
+**To do this challenge, you need a basic understanding of HTML, CSS, JavaScript and React**
 
 ## Table of contents
 
