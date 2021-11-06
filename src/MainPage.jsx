@@ -34,10 +34,10 @@ const MainPage = () => {
           <p className='main__p'>
             Google offered in:
             <span>
-              <a href='#'>Hausa</a>
-              <a href='#'>Igbo</a>
-              <a href='#'>Èdè Yorùbá</a>
-              <a href='#'>Nigerian Pidgin</a>
+              <a href='/'>Hausa</a>
+              <a href='/'>Igbo</a>
+              <a href='/'>Èdè Yorùbá</a>
+              <a href='/'>Nigerian Pidgin</a>
             </span>
           </p>
         </div>
