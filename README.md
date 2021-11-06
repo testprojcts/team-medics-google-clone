@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# SideHustle Internship
+## Team MEDICS - Google clone with ReactJs Library
+### Welcome! 👋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [Google clone with ReactJs Library by Team Medics](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).
 
-## Available Scripts
+**To do this challenge, you need a basic understanding of HTML, CSS, JavaScript and React**
 
-In the project directory, you can run:
+## Table of contents
 
-### `yarn start`
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Video](#video)
+  - [Links](#links)
+- [The process](#the-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [Where to find everything](#where-to-find-everything)
+  - [Building your project](#building-your-project)
+  - [Deploying your project](#deploying-your-project)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Overview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### The challenge
 
-### `yarn test`
+1. Use React Js
+2. Provide a useable experience across all modern web browsers and users who require assistive technologies .
+3. Recreate the Google homepage [Google](https://www.google.com/)
+4. Replace the Google Logo with SideHustle logo
+5. When a user types in the search input field, update the SideHustle logo to the value in the input field.
+6. When the input field is empty, display the logo again
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Video
 
-### `yarn build`
+![Video](video link)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Solution URL: [https://github.com/testprojcts/team-medics-google-clone](https://github.com/testprojcts/team-medics-google-clone)
+- Live Site URL: [Google Clone](hosted link)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## The process
 
-### `yarn eject`
+### Built with
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [React](https://reactjs.org/) - JS library
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What we learned
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+We learned how to build UI with React and update the state.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Continued development
 
-## Learn More
+We want to focus more on State management and debugging.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Useful resources
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [State Hooks](https://reactjs.org/docs/hooks-state.html) - This helped with the syntax and how to apply it to a function.
 
-### Code Splitting
+## Where to find everything
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The components are in the components folder in the src folder.
+You will find all the required assets in the `/images` folder. The assets are already optimized.
 
-### Analyzing the Bundle Size
+## Building your project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Initialize your project
+```
+npx create-react-app appName
+cd appName
+npm start
+```
+2. Edit the files you want to and it updates on the localhost.
 
-### Making a Progressive Web App
+## Deploying your project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
 
-### Advanced Configuration
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [Miracle Ogunleye](https://github.com/mimiicodes)
+- [Erasmus Mensah](https://github.com/testprojcts)
+- [Ngozi Aguluka](https://github.com/Melissacinta)
 
-### Deployment
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The entire family of SideHustle Internship React 4.0 🎊✨
 
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Have fun building!** 🚀
