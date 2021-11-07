@@ -1,0 +1,105 @@
+.content__wrapper {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.input__wrapper {
+  border: 1px solid #ddd;
+  outline: 0;
+  border-radius: 20px;
+  font-size: 16px;
+  box-shadow: 1px 2px 5px rgba(221, 221, 221, 0.302);
+  overflow: hidden;
+  width: 100%;
+}
+
+.input__wrapper .searchInput {
+  height: 100%;
+  padding: 15px 25px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  font-size: 16px;
+  color: #5a5959;
+}
+
+.searchInput::placeholder {
+  font-size: 16px;
+}
+
+.input__wrapper:hover {
+  box-shadow: 1px 2px 5px #ddd;
+  transition: all 0.25s linear;
+  cursor: default;
+}
+
+.mainPage {
+  height: calc(85vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.logo {
+  height: 70px;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 30px;
+}
+
+.searchIcon {
+  font-size: 20px;
+  color: blue;
+}
+
+/* main buttons */
+.mainBtn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 10px;
+  padding: 5px 0;
+}
+
+.mainBtn .bottomBtn {
+  padding: 13px 20px;
+  outline: 0;
+  border: 1px solid rgb(254, 254, 254);
+  gap: 20px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.mainBtn .bottomBtn:hover {
+  box-shadow: 1px 2px 5px #ddd;
+  cursor: pointer;
+  border: 1px solid rgba(223, 221, 221, 0.623);
+}
+
+.paragragh__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragragh__container .main__p a {
+  margin: 5px;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.main__p a:hover {
+  text-decoration: underline;
+}
+
+.edited__text {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 22px;
+}
